@@ -1,3 +1,4 @@
+import 'package:flash_app/colors.dart';
 import 'package:flutter/material.dart';
 
 class SplashScreen extends StatelessWidget {
@@ -19,7 +20,7 @@ class SplashScreen extends StatelessWidget {
             'FlashApp',
             textAlign: TextAlign.center,
             style: TextStyle(
-                color: Color.fromARGB(255, 208, 211, 15),
+                color: AppColors.boltYellow,
                 fontSize: 50,
                 fontFamily: 'Righteous'),
           ),

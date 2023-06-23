@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flash_app/splash_screen.dart';
+import 'package:flash_app/colors.dart';
 
 void main() {
   runApp(
@@ -8,8 +9,8 @@ void main() {
       body: Container(
         decoration: const BoxDecoration(
           gradient: LinearGradient(colors: [
-            Color.fromARGB(255, 1, 22, 39),
-            Color.fromARGB(255, 1, 22, 39),
+            AppColors.richBlack,
+            AppColors.richBlack,
           ]),
         ),
         child: const SplashScreen(),
