@@ -1,6 +1,6 @@
 # flash_app
 
-A new Flutter base project.
+A Flutter based project which helps users to learn and revise their concepts and topics using flashcard.
 
 ## Getting Started
 
